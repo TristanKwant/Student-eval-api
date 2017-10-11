@@ -17,6 +17,7 @@ const students = [
   {
     name: 'Tristan Kwant',
     batch: 10,
+    currentColor: 'red',
     photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
     days: [
       {day: '09-10-17', color: 'green' },
@@ -26,6 +27,7 @@ const students = [
   {
     name: 'Job Weeda',
     batch: 9,
+    currentColor: 'red',
     photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
     days: [
       {day: '09-10-17', color: 'yellow' },
@@ -35,6 +37,7 @@ const students = [
   {
     name: 'jan klaas',
     batch: 9,
+    currentColor: 'red',
     photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
     days: [
       {day: '09-10-17', color: 'yellow' },
