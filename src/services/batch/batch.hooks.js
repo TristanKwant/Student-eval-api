@@ -1,5 +1,19 @@
 const { authenticate } = require('feathers-authentication').hooks;
-const createBatch = require('../../hooks/create-batch');
+// import { populate } from 'feathers-hooks-common';
+// const populateBatch = require('../../hooks/populate-batch');
+
+
+
+
+// const postCommentsSchema = {
+//   include: {
+//     service: 'students',
+//     nameAs: 'students',
+//     parentField: '_id',
+//     childField: 'studentId'
+//   }
+// };
+
 
 module.exports = {
   before: {
