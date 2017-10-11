@@ -32,6 +32,15 @@ const students = [
       {day: '08-10-17', color: 'green' },
     ],
   },
+  {
+    name: 'jan klaas',
+    batch: 9,
+    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    days: [
+      {day: '09-10-17', color: 'yellow' },
+      {day: '08-10-17', color: 'green' },
+    ],
+  },
 ];
 
 
