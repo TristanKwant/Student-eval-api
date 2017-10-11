@@ -11,14 +11,18 @@ const restrict = [
 
 
 
+const evaluateStudent = require('../../hooks/evaluate-student');
+
+
+
 module.exports = {
   before: {
     all: [ ...restrict],
     find: [],
     get: [],
-    create: [],
-    update: [],
-    patch: [],
+    create: [evaluateStudent()],
+    update: [evaluateStudent()],
+    patch: [evaluateStudent()],
     remove: []
   },
 

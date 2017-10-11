@@ -10,7 +10,7 @@ module.exports = function (options = {}) {
     }).then(batch => {
       console.log("bach_id:", batch.data[0]._id)
       hook.app.service('batch').patch(batch.data[0]._id, {
-        $addToSet: { students: hook.result._id }
+        $addToSet: { students: hook.result }
       })
         .then((result) => {
           console.log('Student yes...', result.name);
