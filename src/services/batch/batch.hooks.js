@@ -1,19 +1,9 @@
-
-const createStudent = require('../../hooks/create-Student');
-
 const { authenticate } = require('feathers-authentication').hooks;
-const { restrictToOwner, associateCurrentUser, restrictToAuthenticated } = require('feathers-authentication-hooks');
-
-const restrict = [
-  authenticate('jwt'),
-  restrictToAuthenticated(),
-];
-
-
+const createBatch = require('../../hooks/create-batch');
 
 module.exports = {
   before: {
-    all: [ ...restrict],
+    all: [],
     find: [],
     get: [],
     create: [],
