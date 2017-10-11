@@ -11,7 +11,7 @@ module.exports = function (app) {
     batch: { type: String, required: true },
     currentColor: { type: String },
     photo: { type: String, default: 'http://via.placeholder.com/500x180?text=No%20Image' },
-    days: { type: [], required: true },
+    days: { type: []},
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
   });
