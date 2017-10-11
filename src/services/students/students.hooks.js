@@ -20,7 +20,7 @@ module.exports = {
     all: [ ...restrict],
     find: [],
     get: [],
-    create: [evaluateStudent()],
+    create: [],
     update: [evaluateStudent()],
     patch: [evaluateStudent()],
     remove: []

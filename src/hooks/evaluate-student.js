@@ -20,7 +20,27 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             console.log("GREEEN")
 
             hook.data = {
-              days: student.days.concat({day: '11-10-17', color: 'green'})
+              days: student.days.concat({day: '11-10-17', color: 'green'}),
+              currentColor: 'green'
+            }
+            return hook;
+          }
+          if (payload.yellow) {
+            console.log("YELLOWW")
+
+            hook.data = {
+              days: student.days.concat({day: '11-10-17', color: 'yellow'}),
+              currentColor: 'yellow'
+            }
+            return hook;
+          }
+
+          if (payload.red) {
+            console.log("REDD")
+
+            hook.data = {
+              days: student.days.concat({day: '11-10-17', color: 'red'}),
+              currentColor: 'red'
             }
             return hook;
           }
