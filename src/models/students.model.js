@@ -10,7 +10,7 @@ module.exports = function (app) {
     name: { type: String, required: true },
     batch: { type: String, required: true },
     photo: { type: String, default: 'http://via.placeholder.com/500x180?text=No%20Image' },
-    days: { type: [Array] },
+    days: { type: [], required: true },
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
   });

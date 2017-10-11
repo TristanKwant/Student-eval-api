@@ -11,6 +11,8 @@ const user = {
 };
 
 
+
+
 const students = [
   {
     name: 'Tristan Kwant',
@@ -23,13 +25,30 @@ const students = [
   },
   {
     name: 'Job Weeda',
-    batch: 10,
+    batch: 9,
     photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
     days: [
       {day: '09-10-17', color: 'yellow' },
       {day: '08-10-17', color: 'green' },
     ],
   },
+];
+
+
+const batch = [
+
+  {
+    number: 10,
+    students: [],
+  },
+  {
+    number: 9,
+    students: [],
+  }
+
+
+
+
 ];
 
 
@@ -46,6 +65,15 @@ feathersClient.service('users').create(user)
       strategy: 'local',
       email: user.email,
       password: user.password
+    }).then(() => {
+      batch.map((batch) => {
+        feathersClient.service('batch').create(batch)
+          .then((result) => {
+            console.log('Batch seeded...', result.name);
+          }).catch((error) => {
+            console.error('Error seeding recipe!', error.message);
+          });
+      });
     })
       .then(() => {
         students.map((student) => {
