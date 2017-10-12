@@ -15,14 +15,18 @@ const evaluateStudent = require('../../hooks/evaluate-student');
 
 
 
+const editStudent = require('../../hooks/edit-student');
+
+
+
 module.exports = {
   before: {
     all: [ ...restrict],
     find: [],
     get: [],
     create: [],
-    update: [evaluateStudent()],
-    patch: [evaluateStudent()],
+    update: [evaluateStudent(), editStudent()],
+    patch: [evaluateStudent(), editStudent()],
     remove: []
   },
 
