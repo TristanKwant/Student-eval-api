@@ -15,6 +15,10 @@ const evaluateStudent = require('../../hooks/evaluate-student');
 
 
 
+const randomStudent = require('../../hooks/random-student');
+
+
+
 module.exports = {
   before: {
     all: [ ...restrict],
