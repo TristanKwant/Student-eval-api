@@ -18,7 +18,7 @@ const students = [
     name: 'Tristan Kwant',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -28,7 +28,7 @@ const students = [
     name: 'kerst man',
     batch: 9,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'yellow' },
       {day: '08-10-17', color: 'green' },
@@ -38,7 +38,7 @@ const students = [
     name: 'Floris',
     batch: 9,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'yellow' },
       {day: '08-10-17', color: 'green' },
@@ -48,7 +48,7 @@ const students = [
     name: 'Klaas vaak',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -58,7 +58,7 @@ const students = [
     name: 'Sinter klaas',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -68,7 +68,7 @@ const students = [
     name: 'Vera Koot',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -78,7 +78,7 @@ const students = [
     name: 'mimi',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -87,8 +87,8 @@ const students = [
   {
     name: 'Faisal al sudani',
     batch: 10,
-    currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -98,7 +98,7 @@ const students = [
     name: 'Jan Sijmen',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -107,8 +107,8 @@ const students = [
   {
     name: 'Anna paula',
     batch: 10,
-    currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    currentColor: 'yellow',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -117,8 +117,8 @@ const students = [
   {
     name: 'Marloes',
     batch: 10,
-    currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -127,8 +127,8 @@ const students = [
   {
     name: 'megan',
     batch: 10,
-    currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -138,7 +138,7 @@ const students = [
     name: 'Job weeda',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
@@ -148,7 +148,7 @@ const students = [
     name: 'Mathijs',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
