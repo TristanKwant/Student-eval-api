@@ -2,7 +2,7 @@
 
 
 const { authenticate } = require('feathers-authentication').hooks;
-const { restrictToOwner, associateCurrentUser, restrictToAuthenticated } = require('feathers-authentication-hooks');
+const { restrictToAuthenticated } = require('feathers-authentication-hooks');
 const populateBatch = require('../../hooks/populate-batch');
 const restrict = [
   authenticate('jwt'),
@@ -12,10 +12,12 @@ const restrict = [
 
 
 const evaluateStudent = require('../../hooks/evaluate-student');
-
-
-
 const editStudent = require('../../hooks/edit-student');
+
+
+
+
+
 
 
 

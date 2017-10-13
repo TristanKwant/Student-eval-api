@@ -1,8 +1,9 @@
 // Use this hook to manipulate incoming or outgoing data.
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 const ADD_EVAL = 'ADD_EVAL'
+const EDIT_EVAL = 'EDIT_EVAL'
 
-module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
+module.exports = function (options = {}) {
   return function evaluateStudent (hook) {
     // Hooks can either return nothing or a promise
     // that resolves with the `hook` object for asynchronous operations
@@ -10,7 +11,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
       .then((student) => {
 
         const { type, payload } = hook.data;
-        console.log('"payload:"', payload)
+        console.log('"payload:"', type)
 
 
         switch (type) {
@@ -20,7 +21,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             console.log("GREEEN")
 
             hook.data = {
-              days: student.days.concat({day: '11-10-17', color: 'green'}),
+              days: student.days.concat({day: payload.date, color: 'green', comment: payload.comment}),
               currentColor: 'green'
             }
             return hook;
@@ -29,7 +30,7 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             console.log("YELLOWW")
 
             hook.data = {
-              days: student.days.concat({day: '11-10-17', color: 'yellow'}),
+              days: student.days.concat({day: payload.date, color: 'green', comment: payload.comment}),
               currentColor: 'yellow'
             }
             return hook;
@@ -39,15 +40,14 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
             console.log("REDD")
 
             hook.data = {
-              days: student.days.concat({day: '11-10-17', color: 'red'}),
+              days: student.days.concat({day: payload.date, color: 'green', comment: payload.comment}),
               currentColor: 'red'
             }
             return hook;
           }
 
-          return hook;
+          // return hook;
         }
-
 
 
         default:
