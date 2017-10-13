@@ -10,7 +10,8 @@ module.exports = function (app) {
   const batch = new Schema({
     number: { type: Number, required: true },
     students: { type: []},
-
+    startDate: {type: String},
+    endDate: {type: String},
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
   });

@@ -18,30 +18,140 @@ const students = [
     name: 'Tristan Kwant',
     batch: 10,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'green' },
       {day: '08-10-17', color: 'red' },
     ],
   },
   {
-    name: 'Job Weeda',
+    name: 'kerst man',
     batch: 9,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'yellow' },
       {day: '08-10-17', color: 'green' },
     ],
   },
   {
-    name: 'jan klaas',
+    name: 'Floris',
     batch: 9,
     currentColor: 'red',
-    photo: 'https://ca.slack-edge.com/T3EFKFK5Z-U6HHT3P1S-d302379029ed-1024',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
     days: [
       {day: '09-10-17', color: 'yellow' },
       {day: '08-10-17', color: 'green' },
+    ],
+  },
+  {
+    name: 'Klaas vaak',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Sinter klaas',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Vera Koot',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'mimi',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Faisal al sudani',
+    batch: 10,
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Jan Sijmen',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Anna paula',
+    batch: 10,
+    currentColor: 'yellow',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Marloes',
+    batch: 10,
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'megan',
+    batch: 10,
+    currentColor: 'green',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Job weeda',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
+    ],
+  },
+  {
+    name: 'Mathijs',
+    batch: 10,
+    currentColor: 'red',
+    photo: 'https://pbs.twimg.com/profile_images/521600973198733312/-vydwN2r_400x400.jpeg',
+    days: [
+      {day: '09-10-17', color: 'green' },
+      {day: '08-10-17', color: 'red' },
     ],
   },
 ];
@@ -51,10 +161,14 @@ const batch = [
 
   {
     number: 10,
+    startDate: '2017-10-12',
+    endDate: '2017-11-12',
     students: [],
   },
   {
     number: 9,
+    startDate: '2017-09-12' ,
+    endDate: '2017-08-12',
     students: [],
   }
 
