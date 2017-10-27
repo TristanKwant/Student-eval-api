@@ -11,13 +11,14 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 Getting up and running is as easy as 1, 2, 3.
 
 1. Make sure you have [NodeJS](https://nodejs.org/) and [Yarn](https://yarnpkg.com/lang/en/) installed.
-2. Install your dependencies
+2. Make sure MongoDB is installed and running.
+3. Install your dependencies
 
     ```
     cd path/to/student-eval-api; yarn install
     ```
 
-3. Start your app
+4. Start your app
 
     ```
     yarn start
